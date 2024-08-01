@@ -1,4 +1,3 @@
--- Active: 1692888112245@@localhost@3306@lms
 CREATE DATABASE lms;
 USE lms;
 CREATE Table student_details(reg_no DOUBLE PRIMARY KEY, name VARCHAR(30), dob DATE, specialization VARCHAR(10), mobile_no DOUBLE, year INT);
